@@ -1,0 +1,141 @@
+/* *{
+transition: all .1s ease-in;
+} */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(59, 63, 69);
+	color: rgb(255, 255, 255);
+	border: 15px solid rgb(255, 255, 255);
+	margin: 0;
+	min-height: 100vh;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+}
+
+header {
+	background: rgb(74, 79, 86);
+	padding: 0 20px; /* чтоб перестраховаться чтоб текст в низ не уходил */
+}
+
+main {
+	width: 80%;
+}
+
+form {
+	display: flex;
+}
+
+h1 {
+	margin: 0;
+	padding-top: 15px;
+	/* margin-top: 10px;
+	margin-bottom: 5px; */
+	color: rgb(235, 126, 127);
+	text-align: center;
+}
+
+header h2 {
+	margin: 0;
+	font-size: 20px;
+	padding-top: 5px;
+	padding-bottom: 15px;
+}
+
+header h2,
+footer h2 {
+	color: rgb(235, 126, 127);
+	text-align: center;
+	font-weight: normal;
+}
+
+footer h2 {
+	margin: 15px 0;
+}
+
+ul {
+	padding: 0;
+	font-weight: normal;
+/* 	vertical-align: middle; */
+}
+
+.container {
+	/* text-align: center; */
+	width: 60%;
+	margin: 0 auto;
+}
+
+li {
+	display: block;
+	border-top: 2px solid rgb(136, 131, 158);
+	border-bottom: 2px solid rgb(136, 131, 158);
+	background: rgb(136, 131, 158);
+	padding: 7px 4px;
+	font-size: 20px;
+}
+
+label{
+	display: block;
+	/* background: rgb(136, 131, 158);
+	padding: 7px 4px;
+	font-size: 20px; */
+}
+
+/* form ul li label:nth-child(1) {
+	display: block;
+	background: red/*  rgb(122, 117, 147) */;
+}
+ */
+
+.checkboxs {
+	margin: 5px;
+	zoom: 1.8;
+}	
+/* при нажатии меняется цвет */
+input:checked + span,
+input:checked + span > small
+{
+	text-decoration: line-through;
+	color:#a3a0b5;
+	 opacity: .7 
+}
+
+
+ /* при наведение на пункт меняется цвет и подчеривается сверху и снизу */
+
+li:hover {                     
+	border-color: white;
+	background: #625e77;
+}
+
+li:active {
+	background: rgb(235, 126, 127);  
+}
+
+span {
+	font-size: 20px;
+}
+
+small {
+	font-size: 15px;
+	color: rgb(205, 203, 203);
+}
+
+small:before {
+	content: "( ";
+}
+
+small:after {
+	content: " )";
+}
+
+.foot {
+	background: rgb(74, 79, 86);
+	/* width: 90%; */
+	margin: 0;
+	padding: 1px 0;
+	/* height: 350px */
+}
+
+
