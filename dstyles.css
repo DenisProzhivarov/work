@@ -46,7 +46,7 @@ header h2 {
 header h2,
 footer h2 {
 	color: rgb(235, 126, 127);
-	text-align: center;
+	text-align: right;
 	font-weight: normal;
 }
 
